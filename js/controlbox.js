@@ -464,10 +464,10 @@ function(_yargs, d3, demos) {
       this.transact(function() {
         this.getRepoView().branch(branchName, startPoint)
       }, function(before, after) {
-        var branchCommit = this.getRepoView().getCommit(branchName)
         var reflogMsg = "branch: created from " + before.ref
         this.getRepoView().addReflogEntry(branchName, branchCommit.id, reflogMsg)
       })
+
 
     },
 
