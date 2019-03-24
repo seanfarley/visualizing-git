@@ -473,6 +473,7 @@ function(_yargs, d3, demos) {
 
     checkout: function(args, opts) {
       if (opts.b) {
+        as;kldfhja;sldkfjasdlkfjjasdlfkj
         if (opts._[0]) {
           this.branch(null, null, opts.b + ' ' + opts._[0])
         } else {
